@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #e6eff6;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+#container{
+  max-width: 50vw;
+}
+
+#container #intro{
+  background: #FFF;
+  padding: 2.5rem 3rem;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+#container #intro h1{
+  color: hsl(179, 62%, 43%);
+  font-size: 1.75rem;
+}
+
+#container #intro h2{
+  color: hsl(71, 73%, 54%);
+  font-size: 1.3rem;
+  margin: 1.4rem 0 0.5rem;
+}
+
+#container #intro p{
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+#container #subscription{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 18rem;
+}
+
+#container #subscription #payment{
+  background: hsl(179, 62%, 43%);
+  color: #FFF;
+  padding: 3rem;
+}
+
+#container #subscription #payment h3{
+  font-size: 1.2rem;
+}
+
+#container #subscription #payment #amount{
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  color: hsl(203, 23%, 89%);
+  margin: 0.9rem 0 0.4rem;
+}
+
+#container #subscription #payment #amount span{
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #FFF;
+  margin-right: 0.7rem;
+}
+
+#container #subscription #payment button{
+  background:hsl(71, 73%, 54%);
+  color: #FFF;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  outline: none;
+  width: 100%;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+#container #subscription #text{
+  background: hsl(179, 47%, 52%);
+  color: #FFF;
+  padding: 3rem;
+}
+
+#container #subscription #text h3{
+  margin-bottom: 1rem;
+}
+
+#container #subscription #text ul li{
+  list-style: none;
+  font-weight: small;
+}
